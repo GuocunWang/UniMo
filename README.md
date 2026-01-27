@@ -1,5 +1,9 @@
 # [AAAI 2026] UniMo: Unified Motion Generation and Understanding with Chain of Thought
 
+<p align="center">
+  <a href="https://arxiv.org/abs/2601.12126"><img src="https://img.shields.io/badge/Paper-arXiv-b31b1b.svg" alt="Paper"></a>
+  <a href="https://aaai.org/conference/aaai/aaai-26/"><img src="https://img.shields.io/badge/AAAI-2026-4b44ce.svg" alt="Conference"></a>
+</p>
 UniMo is a novel unified framework for **3D human motion generation and understanding** that leverages the powerful reasoning capabilities of large language models (LLMs) enhanced by Chain of Thought (CoT) and Group Relative Policy Optimization (GRPO) based reinforcement learning. UniMo bridges the gap between natural language and human motion, achieving state-of-the-art performance on both text-to-motion (T2M) and motion-to-text (M2T) tasks.
 
 <p align="center">
@@ -7,7 +11,12 @@ UniMo is a novel unified framework for **3D human motion generation and understa
 </p>
 
 ---
+## 📋 TODO
 
+- [x] 🚀 Release training code
+- [x] 🔧 Release inference code
+- [ ] 📦 Release pre-trained model weights
+      
 ## Installation
 
 1. **Create the Conda environment:**
@@ -129,9 +138,24 @@ python demo.py
 ```
 Similarly, set `args.llm_backbone` to your trained checkpoint.
 
+---
+
 
 ## Acknowledgements
 
 * [Motion-Agent](https://github.com/szqwu/Motion-Agent)
 * [HumanML3D](https://github.com/EricGuo5513/HumanML3D)
 * [Qwen2.5-3B-Instruct](https://huggingface.co/Qwen/Qwen2.5-3B-Instruct)
+
+## Citation
+If you find UniMo useful for your research, please cite our paper:
+
+```bibtex
+@article{wang2026unimo,
+  title={UniMo: Unified Motion Generation and Understanding with Chain of Thought},
+  author={Wang, Guocun and Liu, Kenkun and Lin, Jing and Song, Guorui and Li, Jian and Han, Xiaoguang},
+  journal={arXiv preprint arXiv:2601.12126},
+  year={2026}
+}
+```
+
