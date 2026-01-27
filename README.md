@@ -1,10 +1,13 @@
 # [AAAI 2026] UniMo: Unified Motion Generation and Understanding with Chain of Thought
-
 <p align="center">
   <a href="https://arxiv.org/abs/2601.12126"><img src="https://img.shields.io/badge/Paper-arXiv-b31b1b.svg" alt="Paper"></a>
   <a href="https://aaai.org/conference/aaai/aaai-26/"><img src="https://img.shields.io/badge/AAAI-2026-4b44ce.svg" alt="Conference"></a>
 </p>
-UniMo is a novel unified framework for **3D human motion generation and understanding** that leverages the powerful reasoning capabilities of large language models (LLMs) enhanced by Chain of Thought (CoT) and Group Relative Policy Optimization (GRPO) based reinforcement learning. UniMo bridges the gap between natural language and human motion, achieving state-of-the-art performance on both text-to-motion (T2M) and motion-to-text (M2T) tasks.
+<p align="center">
+  <b>Guocun Wang<sup>1*</sup>, Kenkun Liu<sup>2*</sup>, Jing Lin<sup>3</sup>, Guorui Song<sup>1</sup>, Jian Li<sup>1†</sup>, Xiaoguang Han<sup>2†</sup></b><br>
+  <sup>1</sup>Tsinghua University, <sup>2</sup>CUHK-Shenzhen, <sup>3</sup>Nanyang Technological University
+</p>
+UniMo is a novel unified framework for 3D human motion generation and understanding that leverages the powerful reasoning capabilities of large language models (LLMs) enhanced by Chain of Thought (CoT) and Group Relative Policy Optimization (GRPO) based reinforcement learning. UniMo bridges the gap between natural language and human motion, achieving state-of-the-art performance on both text-to-motion (T2M) and motion-to-text (M2T) tasks.
 
 <p align="center">
   <img src="assets/UniMo.jpg" alt="UniMo Framework" width="95%"/>
@@ -69,7 +72,7 @@ Download the required pretrained models following the steps below:
 
 ## Training & Evaluation Pipeline
 
-### SFT (Supervised Fine-Tuning) Stage
+### SFT Stage
 
 1. **Encode Motions with VQ-VAE:**
 
@@ -85,7 +88,7 @@ Download the required pretrained models following the steps below:
    python train_sft.py
    ```
 
-### GRPO (Reinforcement Learning) Stage
+### GRPO Stage
 
 1. **Preprocess Training Data:**
 
@@ -108,7 +111,7 @@ Download the required pretrained models following the steps below:
 
 ### Evaluation
 
-* **T2M (Text-to-Motion) Evaluation:**
+* **T2M Evaluation:**
 
   ```bash
   python eval_mllm_think_t2m.py
@@ -117,7 +120,7 @@ Download the required pretrained models following the steps below:
 
   Set `args.llm_backbone` in these scripts to your final checkpoint.
 
-* **M2T (Motion-to-Text) Evaluation:**
+* **M2T Evaluation:**
 
   ```bash
   python eval_mllm_think_m2t.py
