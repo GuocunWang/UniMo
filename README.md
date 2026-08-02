@@ -1,7 +1,7 @@
 # [AAAI 2026] UniMo: Unified Motion Generation and Understanding with Chain of Thought
 <p align="center">
   <a href="https://arxiv.org/abs/2601.12126"><img src="https://img.shields.io/badge/Paper-arXiv-b31b1b.svg" alt="Paper"></a>
-  <a href="https://aaai.org/conference/aaai/aaai-26/"><img src="https://img.shields.io/badge/AAAI-2026-4b44ce.svg" alt="Conference"></a>
+  <a href="[https://aaai.org/conference/aaai/aaai-26/](https://ojs.aaai.org/index.php/AAAI/article/view/37936)"><img src="https://img.shields.io/badge/AAAI-2026-4b44ce.svg" alt="Conference"></a>
 </p>
 <p align="center">
   <b>Guocun Wang<sup>1*</sup>, Kenkun Liu<sup>2*</sup>, Jing Lin<sup>3</sup>, Guorui Song<sup>1</sup>, Jian Li<sup>1†</sup>, Xiaoguang Han<sup>2†</sup></b><br>
@@ -154,10 +154,13 @@ Similarly, set `args.llm_backbone` to your trained checkpoint.
 If you find UniMo useful for your research, please cite our paper:
 
 ```bibtex
-@article{wang2026unimo,
+@inproceedings{wang2026unimo,
   title={UniMo: Unified Motion Generation and Understanding with Chain of Thought},
   author={Wang, Guocun and Liu, Kenkun and Lin, Jing and Song, Guorui and Li, Jian and Han, Xiaoguang},
-  journal={arXiv preprint arXiv:2601.12126},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={40},
+  number={12},
+  pages={9729--9737},
   year={2026}
 }
 ```
