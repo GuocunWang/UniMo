@@ -1,7 +1,7 @@
 # [AAAI 2026] UniMo: Unified Motion Generation and Understanding with Chain of Thought
 <p align="center">
   <a href="https://arxiv.org/abs/2601.12126"><img src="https://img.shields.io/badge/Paper-arXiv-b31b1b.svg" alt="Paper"></a>
-  <a href="[https://aaai.org/conference/aaai/aaai-26/](https://ojs.aaai.org/index.php/AAAI/article/view/37936)"><img src="https://img.shields.io/badge/AAAI-2026-4b44ce.svg" alt="Conference"></a>
+  <a href="https://ojs.aaai.org/index.php/AAAI/article/view/37936"><img src="https://img.shields.io/badge/AAAI-2026-4b44ce.svg" alt="Conference"></a>
 </p>
 <p align="center">
   <b>Guocun Wang<sup>1*</sup>, Kenkun Liu<sup>2*</sup>, Jing Lin<sup>3</sup>, Guorui Song<sup>1</sup>, Jian Li<sup>1†</sup>, Xiaoguang Han<sup>2†</sup></b><br>
