@@ -161,7 +161,8 @@ If you find UniMo useful for your research, please cite our paper:
   volume={40},
   number={12},
   pages={9729--9737},
-  year={2026}
+  year={2026},
+  doi={10.1609/aaai.v40i12.37936}
 }
 ```
 
