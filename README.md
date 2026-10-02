@@ -154,15 +154,11 @@ Similarly, set `args.llm_backbone` to your trained checkpoint.
 If you find UniMo useful for your research, please cite our paper:
 
 ```bibtex
-@inproceedings{wang2026unimo,
+@article{wang2026unimo,
   title={UniMo: Unified Motion Generation and Understanding with Chain of Thought},
   author={Wang, Guocun and Liu, Kenkun and Lin, Jing and Song, Guorui and Li, Jian and Han, Xiaoguang},
-  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
-  volume={40},
-  number={12},
-  pages={9729--9737},
-  year={2026},
-  doi={10.1609/aaai.v40i12.37936}
+  journal={arXiv preprint arXiv:2601.12126},
+  year={2026}
 }
 ```
 
